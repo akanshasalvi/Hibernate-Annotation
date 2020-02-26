@@ -20,7 +20,7 @@ public class SessionFactoryRegistry {
 		setting.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
 		setting.put("hibernate.connection.url", "jdbc:mysql://localhost:3306/akansha");
 		setting.put("hibernate.connection.username", "root");
-		setting.put("hibernate.connection.username", "root");
+		setting.put("hibernate.connection.password", "root");
 		setting.put("hibernate.hbm2ddl.auto", "update");
 		setting.put("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
 		MetadataSources metadatasources = new MetadataSources(new StandardServiceRegistryBuilder().applySettings(setting).build());
